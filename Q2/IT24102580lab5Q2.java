@@ -16,10 +16,10 @@ public class IT24102580lab5Q2 {
 
 		switch (quantityofmemebers) {
 		
-		case 0 :
+		case 0  : 
+			
+				System.out.println ("congrats! You are entitled to a : Headphone.");
 
-				System.out.println ("Better luck next time.");
-				
 				break;
 		case 1 : 
 			
@@ -30,7 +30,7 @@ public class IT24102580lab5Q2 {
 		
 		case 2 :
 			
-				System.out.println ("congrats! You are entitled to a : Umbrella.");
+				System.out.println ("Better luck! next time.");
 
 				break;
 		
@@ -46,15 +46,8 @@ public class IT24102580lab5Q2 {
 
 				break;
 		
-		case 5  : 
-			
-				System.out.println ("congrats! You are entitled to a : Headphone.");
-
-				break;
-
-		
 		default :
-				System.out.println ("Input must be Zero or greater than Zero.");
+				System.out.println ("Congrats! you are entitled to a : Headphone.");
 				
 		}
 	}
