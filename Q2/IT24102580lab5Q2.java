@@ -10,9 +10,11 @@ public class IT24102580lab5Q2 {
 	System.out.println ("Enter how many new members has you introduced to our company : ");
 	int quantityofmemebers = sc.nextInt () ;
 
-	switch (quantityofmemebers)
+	if (quantityofmembers < 0) {
+		System.out.println ("Input must be Zero or greater than zero");
+	} else { 
 
-	{
+		switch (quantityofmemebers) {
 		
 		case 0 :
 
@@ -54,7 +56,7 @@ public class IT24102580lab5Q2 {
 		default :
 				System.out.println ("Input must be Zero or greater than Zero.");
 				
-				break;
+		}
 	}
 
 
