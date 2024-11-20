@@ -5,20 +5,22 @@ public class IT24102580lab5Q2 {
 	public static void main (String...args) {
 
 	Scanner sc = new Scanner (System.in) ;
+	
 	System.out.println ("Welcome to our prormotion event!\n");
 	
 	System.out.println ("Enter how many new members has you introduced to our company : ");
-	int quantityofmemebers = sc.nextInt () ;
+	int quantityofmembers = sc.nextInt () ;
 
 	if (quantityofmembers < 0) {
 		System.out.println ("Input must be Zero or greater than zero");
+	
 	} else { 
 
-		switch (quantityofmemebers) {
+		switch (quantityofmembers) {
 		
 		case 0  : 
 			
-				System.out.println ("congrats! You are entitled to a : Headphone.");
+				System.out.println ("Better luck! next time.");
 
 				break;
 		case 1 : 
@@ -30,7 +32,7 @@ public class IT24102580lab5Q2 {
 		
 		case 2 :
 			
-				System.out.println ("Better luck! next time.");
+				System.out.println ("congrats! You are entitled to a : Umbrella.");
 
 				break;
 		
@@ -58,6 +60,5 @@ public class IT24102580lab5Q2 {
 
 
 }
-
 
 
